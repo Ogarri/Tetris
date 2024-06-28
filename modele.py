@@ -18,9 +18,9 @@ class ModeleTetris:
             self.__terrain.append(ligne)
             ligne = []
     
-    def printTerrain(self):
-        for i in range(self.__ligne + self.__base):
-            print(self.__terrain[i])
+#    def printTerrain(self):
+#        for i in range(self.__ligne + self.__base):
+#            print(self.__terrain[i])
 
-jeu1 = ModeleTetris()
-jeu1.printTerrain()
+#jeu1 = ModeleTetris()
+#jeu1.printTerrain()
